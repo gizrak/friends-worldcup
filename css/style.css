@@ -1,0 +1,44 @@
+﻿body {
+    font-size: 12px;
+}
+h1 {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    color: #D20005;
+}
+h2 {
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #AFAFAF;
+    color: #0E1B55;
+    clear: both;
+}
+textarea.camel {
+    width: 500px;
+    height: 500px;
+}
+.wikitable {
+    font-size: 15px;
+	border-collapse: collapse;
+    border: 1px solid #aaa;
+    color: black;
+}
+.wikitable th, .wikitable td.hl3, .wikitable th.hl3 {
+	background-color: #8da7d6;
+	border: 1px solid #aaa;
+	padding: 0.2em;
+}
+.wikitable td.hl1, .wikitable th.hl1 {
+	background: #c5d8fc;
+	border: 1px solid #aaa;
+	padding: 0.2em;
+}
+.wikitable td.hl2, .wikitable th.hl2 {
+	background: #a7c1f2;
+	border: 1px solid #aaa;
+	padding: 0.2em;
+}
