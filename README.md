@@ -21,12 +21,10 @@ https://chrome.google.com/webstore/detail/nlcmnbcpdocigdogindcaoejejedbfnb
 ## 릴리즈 노트 
 
 v1.1.0
-
 * 사진 16장 이상 제한 사라짐
 * 게임이 끝난 후 새게임 버튼 추가
 
 v1.0.0
-
 * 최초 릴리즈
 
 
