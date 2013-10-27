@@ -1,44 +1,158 @@
-﻿body {
-    font-size: 12px;
+﻿html,body {
+    margin: 0;
+    padding: 0;
+    height: 100%
 }
+
+body {
+    background: url('/images/bg_dot.png')
+}
+
 h1 {
-    font-family: Arial;
-    font-size: 20px;
-    font-weight: bold;
-    color: #D20005;
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    top: 70px;
+    width: 444px;
+    height: 149px;
+    margin-left: -222px;
+    background: url('/images/title_01.png');
+    font-size: 1px;
+    text-indent: -10000em
 }
+
 h2 {
-    font-family: Arial;
-    font-size: 18px;
+    text-align: center
+}
+
+ol {
+    padding: 0 0 0 20px
+}
+
+li {
+    padding-bottom: 20px
+}
+
+.wrap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('/images/sunbrust.png');
+    background-size: 100% 100%
+}
+
+.box {
+    position: absolute;
+    width: 979px;
+    height: 612px;
+    left: 50%;
+    top: 180px;
+    margin-left: -489px;
+    background: url('/images/bg_deco3.png') left top no-repeat,
+        url('/images/bg_deco1.png') left bottom no-repeat,
+        url('/images/bg_deco2.png') right top no-repeat
+}
+
+.frame {
+    position: absolute;
+    top: 107px;
+    width: 314px;
+    height: 485px;
+    background: url('/images/frame.png') left top no-repeat;
+    padding: 48px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.frame img {
+    width: 218px;
+    height: 289px;
+    background: gray;
+    cursor: pointer
+}
+
+.frame:nth-child(3) {
+    left: 150px
+}
+
+.frame:nth-child(2) {
+    left: 520px
+}
+
+.vs {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 180px;
+    height: 150px;
+    margin-top: -75px;
+    margin-left: -90px;
+    background: url('/images/vs.png')
+}
+
+.name {
+    height: 94px;
+    margin-top: 10px;
+    padding-top: 25px;
+    background: url('/images/label.png') left top no-repeat;
+    font-family: '돋움';
+    font-size: 30px;
     font-weight: bold;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-    border-bottom: 1px solid #AFAFAF;
-    color: #0E1B55;
-    clear: both;
+    text-align: center
 }
-textarea.camel {
-    width: 500px;
-    height: 500px;
+
+.box2 {
+    position: absolute;
+    width: 618px;
+    height: 612px;
+    left: 50%;
+    top: 180px;
+    margin-left: -309px;
+    background: url('/images/bg_deco3.png') left top no-repeat,
+        url('/images/bg_deco1.png') left bottom no-repeat,
+        url('/images/bg_deco2.png') right top no-repeat
 }
-.wikitable {
-    font-size: 15px;
-	border-collapse: collapse;
-    border: 1px solid #aaa;
-    color: black;
+
+.noti {
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    width: 324px;
+    height: 415px;
+    margin-left: -172px;
+    background: url('/images/memo.png') left top no-repeat;
+    padding: 48px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
 }
-.wikitable th, .wikitable td.hl3, .wikitable th.hl3 {
-	background-color: #8da7d6;
-	border: 1px solid #aaa;
-	padding: 0.2em;
+
+.box2 .frame {
+    position: absolute;
+    top: 107px;
+    left: 50%;
+    width: 314px;
+    height: 485px;
+    margin-left: -167px;
+    background: url('/images/frame.png') left top no-repeat;
+    padding: 48px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
 }
-.wikitable td.hl1, .wikitable th.hl1 {
-	background: #c5d8fc;
-	border: 1px solid #aaa;
-	padding: 0.2em;
+
+.box2 .congratulation {
+    position: absolute;
+    top: 30px;
+    right: -140px;
+    width: 247px;
+    height: 186px;
+    background: url('/images/congratulation.png') left top no-repeat;
 }
-.wikitable td.hl2, .wikitable th.hl2 {
-	background: #a7c1f2;
-	border: 1px solid #aaa;
-	padding: 0.2em;
+
+#round_title {
+    padding-top: 40px;
+    text-align: left;
+    padding-left: 200px
 }
