@@ -127,12 +127,18 @@ draw = function() {
 		$('#left_image').removeAttr("src").attr('src', e.target.result);
 		$('#left_name').text(seed1.name.substring(0, 10));
 	};
+	reader1.onerror = function(e) {
+		alert(e.target.error.code);
+	};
 	reader1.readAsDataURL(seed1);
 
 	var reader2 = new FileReader();
 	reader2.onload = function(e) {
 		$('#right_image').removeAttr("src").attr('src', e.target.result);
 		$('#right_name').text(seed2.name.substring(0, 10));
+	};
+	reader2.onerror = function(e) {
+		alert(e.target.error.code);
 	};
 	reader2.readAsDataURL(seed2);
 };
