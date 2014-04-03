@@ -1,2 +1,15 @@
+#################  
+## npm
+#################
+
+npm-debug.log
+node_modules/
+!/node_modules/
+!src/node_modules/
+
+#################  
+## MAC OS
+#################
+
 .DS_Store
 .DS_Store?
