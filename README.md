@@ -2,11 +2,11 @@
 
 이제 웹에서 자신의 이상형이나 친구들 사진을 가지고 재미있는 월드컵 게임을 즐길 수 있습니다.
 
-http://worldcup.gizrak.com
+<https://gizrak-worldcup.herokuapp.com/>
 
 아래 주소에서 크롬 확장 어플리케이션으로도 설치가 가능합니다.
 
-https://chrome.google.com/webstore/detail/nlcmnbcpdocigdogindcaoejejedbfnb
+<https://chrome.google.com/webstore/detail/nlcmnbcpdocigdogindcaoejejedbfnb>
 
 ## 사용법
 
