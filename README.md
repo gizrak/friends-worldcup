@@ -30,4 +30,4 @@ v1.0.0
 * 최초 릴리즈
 
 
-Designed by su Programmed by jun
+Designed by su Programmed by Ted
